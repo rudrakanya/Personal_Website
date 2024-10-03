@@ -1,3 +1,98 @@
-<html>
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arya - Web3 Developer & Growth Strategist</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Tenor Sans', sans-serif;
+            color: #f0f0f0;
+            background-color: #121212;
+            overflow: hidden;
+        }
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://via.placeholder.com/1920x1080.gif?text=Sri+Yantra+GIF') no-repeat center center fixed;
+            background-size: cover;
+            opacity: 0.2;
+            z-index: -1;
+        }
+        .content {
+            background-color: rgba(18, 18, 18, 0.8);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 800px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(255, 165, 0, 0.3);
+        }
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 4px solid #FFA500;
+        }
+        h1 {
+            color: #FFA500;
+            margin-bottom: 10px;
+        }
+        .bio {
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #FFA500;
+            text-decoration: none;
+            font-size: 24px;
+            transition: color 0.3s ease;
+        }
+        .social-links a:hover {
+            color: #FFD700;
+        }
+        @media (max-width: 768px) {
+            .content {
+                margin: 20px;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="background"></div>
+        <div class="content">
+            <img src="image/arya.jpeg" alt="Arya" class="profile-img">
+            <h1>Arya</h1>
+            <p class="bio">
+                Arya is a dynamic professional with a diverse background spanning fintech, Web3 development, and digital innovation. As a Growth Strategist at Aspire Fintech, she drove user acquisition and business growth. She's also a skilled Web3 developer, proficient in Solidity, smart contracts, and blockchain architecture. Arya is the founder of a Metaverse startup, shaping the future of decentralized technology and digital finance.
+            </p>
+            <div class="social-links">
+                <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+    <script src="image/sriyantra.tiff"></script>
+</body>
 </html>
